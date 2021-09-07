@@ -1,0 +1,89 @@
+/* CAROUSEL */
+.carousel {
+  margin-bottom: 4rem;
+}
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS */
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+/*Css general*/ 
+.redes { list-style: none; display: inline-flex;}
+.centrar { text-align: center; color:purple; font-size: 50px; }
+.parrafos {font-size: 16px;}
+.subTitulos {font-size: 20px; font-weight: bold;}
+.gridGaleria { display: grid;
+  grid-template-rows:  auto auto auto ;
+justify-items: start;}
+.descripcion { display: flex; text-align: center; align-items: center; }
+.animacion { width: 170px;
+transition: all 1s; }
+.animacion:hover{ width: 220px;}
+.textoDescripcion { font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: larger;
+    background-color: cornsilk; }
+.alineadoCentro { text-align: center; }
